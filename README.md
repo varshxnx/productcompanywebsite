@@ -107,8 +107,9 @@ home.html
     </body>
 </html>
 
+
 ```
-product.html
+products.html
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -314,6 +315,7 @@ product.html
         </div>
     </body>
 </html>
+
 ```
 people.html
 ```
@@ -523,10 +525,11 @@ people.html
     </body>
 </html>
 
+
 ```
 contact.html
 ```
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <title>
@@ -593,27 +596,165 @@ contact.html
     </body>
 </html>
 
+
+```
+styles.css
+```
+        .home{
+            height: 700px;
+            width: 85%;
+            border: 12px solid red;
+            padding-left:10px;
+            padding-right:10px;
+            margin-left: auto;
+            margin-right:auto;
+            background-color:cyan;
+        }
+        .content{
+            border:1px solid whitesmoke;
+            background-color: white;
+            width:95%;
+            height:1190px;
+            padding:10px;
+            margin-left:auto;
+            margin-right:auto;
+        }
+        .header{
+            height: 128px;
+            width:100%;
+            background-image: url(/static/images/header.jpg);
+            background-size: cover;
+            
+        }
+        .logo{
+            height:18%;
+            width: 10%;
+            position:absolute;
+            background-image: url(/static/images/icon.png);
+            background-size:cover;
+            
+        }
+        .prod{
+            height:auto;
+            width:auto;
+            position:relative;
+            bottom:10px;
+            left:550px;
+            border:4px solid transparent;
+            text-align:center;
+            display: inline;
+            padding:15px;
+            font-family:'Gill Sans MT';
+            font-size: large;  
+        }
+        .prod:hover{
+            background-color:red;
+        }
+        .people{
+            height:auto;
+            width:auto;
+            position:relative;
+            bottom:10px;
+            left:700px;
+            border:4px solid transparent;
+            text-align:center;
+            display: inline;
+            padding:15px;
+            font-family:'Gill Sans MT';
+            font-size: large;  
+        }
+        .people:hover{
+            background-color:red;
+        }
+        .contact{
+            height:20px;
+            width:10%;
+            position:relative;
+            bottom:45px;
+            left:1000px;
+            border:4px solid transparent;
+            text-align:center;
+            padding:15px;
+            font-family:'Gill Sans MT';
+            font-size: large;  
+        }
+        .contact:hover{
+            background-color:red;
+        }
+                
+        .h{
+            height:20px;
+            width:10%;
+            position:relative;
+            top:30px;
+            left:200px;
+            border:4px solid transparent;
+            text-align:center;
+            
+            padding:15px;
+            font-family:'Gill Sans MT';
+            font-size: large;  
+        }
+        .h:hover{
+            background-color:red;
+            overflow:hidden;
+        }
+        .footer{
+            border: 15px solid red;
+            width:98%;
+            height:10px;
+            position:relative;
+            bottom: 1px;
+            background-color:red;
+            text-align:center;
+
+        }
+        .title{
+            border:2px solid pink;
+            background-color:yellow;
+            padding:1px;
+            width:99.7%;
+            height: 70px;
+            text-align:center;
+            font-family:'Impact';
+            margin-left:auto;
+            margin-right: auto;
+            
+        }
+        .content{
+            border:1px solid red;
+            background-color: white;
+            width:98%;
+            height:400px;
+            padding:10px;
+            margin-left:auto;
+            margin-right:auto;
+
+        }
 ```
 
-## OUTPUT:
-![output](./out1.png)
-![output](./out2.png)
-![output](./out3.png)
-![output](./out4.png)
-![output](./out5.png)
-![output](./out6.png)
-![output](./out7.png)
-![output](./out8.png)
-![output](./out9.png)
-![output](./out10.png)
-![output](./out11.png)
-![output](./out12.png)
 
+## OUTPUT:
+### Home Page:
+
+![HOME PAGE](./1out7.png)
+
+## Contact Page:
+
+![CONTACT PAGE](./2out7.png)
+
+## People Page:
+
+![PEOPLE PAGE](./3out7.png)
+
+## Product Page:
+
+![PRODUCTS PAGE](./4out7.png)
 
 
 
 ### HTML Validator:
-![output](./validator.png)
+![output](./valid7.png)
 
 
 ## Result:
